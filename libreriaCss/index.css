@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.50%
+}
+@font-face {
+    font-family: solid_soldier;
+    src: url(/Alderete/Fonts/solid_soldier.ttf);
+}
+ .header{
+     display: flex;
+     height: 150px;
+     padding: 2vh;
+     background-image:url(../Assets/fondo-header-01.jpg);
+     background-size: cover;
+     flex-wrap: wrap;
+     justify-content: space-between;
+    }
+    .home__button{
+        font-weight: bold;
+        font-family: solid_soldier;
+        font-size: 50px;
+        list-style-type: none;
+    } 
+    .logo{
+        height: 3.5rem;
+    } 
+ .nav{
+     display: flex;
+ }  
+.secciones{
+display: flex;
+  }  
+.secciones__item{
+    margin: 0px 10px 0px 10px;
+    font-size: 2.2rem;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    
+}
+.enlace{
+    text-decoration: none;
+    color: whitesmoke;
+    list-style-type: none;
+   
+}
+.logos{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.main{
+    display: flex;
+    background-color: burlywood;
+}
+.categorias{
+    display: flex;
+    flex-direction: column;
+ }
+.banner{
+  width: 134.8rem; 
+  height: 25rem;
+}
+.text__div{
+    display: flex;
+    margin: 15px 30px 15px 30px;
+    justify-content: center;
+}
+.categorias__text{
+    font-size: 5rem;
+    font-family: solid_soldier;
+    font-style:italic;
+   color: cornflowerblue;
+   
+}
+.categorias__producto{
+    font-size: 2.2rem;
+    flex-direction: row;
+}
+.footer{
+    display: flex;
+    background-color: burlywood;
+    background-size: cover;
+    justify-content: center;
+    justify-content: space-evenly;
+}
